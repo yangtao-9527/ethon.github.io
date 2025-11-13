@@ -1,0 +1,13 @@
+# Site
+title: Ethon的个人博客
+subtitle: Ethon's Personal Blog
+description: 专注于技术分享与个人成长
+keywords: 编程,技术,学习
+author: Ethon
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL
+url: https://yangtao-9527.github.io/ethon.github.io
+root: /
+permalink: :year/:month/:day/:title/
