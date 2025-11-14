@@ -1,0 +1,24 @@
+# 主题设置
+theme: butterfly
+
+# 侧边栏设置
+aside:
+  enable: true
+  card_author:
+    enable: true
+    name: Ethon
+    description: 一名热爱技术的开发者
+  card_announcement:
+    enable: true
+    content: 欢迎来到我的技术博客！
+
+# 页脚信息
+footer:
+  owner:
+    enable: true
+    since: 2024
+  custom_text: Framework Hexo | Theme Butterfly
+
+# 搜索功能
+local_search:
+  enable: true
