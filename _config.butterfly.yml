@@ -1,24 +1,80 @@
-# 主题设置
+ 主题基本配置
 theme: butterfly
 
-# 侧边栏设置
+# 网站基础信息
+site:
+  title: ethon-blog
+  subtitle: '公开'
+  description: '坚持分享，共同成长'
+  keywords: 技术,博客,开发
+  author: Tonglinxue
+  language: zh-CN
+  since: 2025
+
+# 顶部导航栏
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder
+
+# 侧边栏配置
 aside:
   enable: true
+  hide: false
+  button: true
   card_author:
     enable: true
-    name: Ethon
     description: 一名热爱技术的开发者
+    button:
+      enable: true
+      icon: fas fa-user-plus
+      text: 关注我
+    avatar: /images/avatar.jpg  # 上传您的头像图片
   card_announcement:
     enable: true
-    content: 欢迎来到我的技术博客！
+    content: 欢迎来到我的技术博客!
+  card_recent_post:
+    enable: true
+    limit: 5
+  card_categories:
+    enable: true
+    limit: 10
+  card_tags:
+    enable: true
+    limit: 20
+  card_archives:
+    enable: true
+    type: monthly
+    limit: 12
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    site_uv: 114
+    site_pv: 126
 
-# 页脚信息
+# 页脚配置
 footer:
   owner:
     enable: true
-    since: 2024
+    since: 2025
   custom_text: Framework Hexo | Theme Butterfly
+  copyright: false
 
 # 搜索功能
 local_search:
   enable: true
+  preload: true
+
+# 文章配置
+post:
+  post_meta:
+    date_type: both
+  reward:
+    enable: false
+  copyright:
+    enable: true
+  related_posts:
+    enable: true
+    limit: 6
