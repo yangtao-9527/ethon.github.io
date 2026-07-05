@@ -1,13 +1,12 @@
- 主题基本配置
-theme: butterfly
+# Butterfly 主题配置
 
 # 网站基础信息
 site:
-  title: ethon-blog
-  subtitle: '公开'
+  title: Ethon's Blog
+  subtitle: '技术爱好者的学习笔记'
   description: '坚持分享，共同成长'
-  keywords: 技术,博客,开发
-  author: Tonglinxue
+  keywords: 技术,博客,开发,安全
+  author: Ethon
   language: zh-CN
   since: 2025
 
@@ -30,7 +29,7 @@ aside:
       enable: true
       icon: fas fa-user-plus
       text: 关注我
-    avatar: /images/avatar.jpg  # 上传您的头像图片
+    avatar: /img/avatar.jpg
   card_announcement:
     enable: true
     content: 欢迎来到我的技术博客!
@@ -51,8 +50,8 @@ aside:
     enable: true
     post_count: true
     last_push_date: true
-    site_uv: 114
-    site_pv: 126
+    site_uv: true
+    site_pv: true
 
 # 页脚配置
 footer:
@@ -78,3 +77,24 @@ post:
   related_posts:
     enable: true
     limit: 6
+
+# 背景和样式
+background:
+  index: /images/background/background.jpg
+  footer: /images/background/background2.jpg
+
+# 社交链接
+social:
+  github: https://github.com/yangtao-9527 || fab fa-github || GitHub
+
+# 首页文章封面图
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  default_cover: /img/butterfly-icon.png
+
+# 文章版权
+copyright:
+  enable: true
+  content: 本文版权归作者所有，转载请注明出处。
