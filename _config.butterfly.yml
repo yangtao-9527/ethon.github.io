@@ -1,0 +1,100 @@
+# Butterfly 主题配置
+
+# 网站基础信息
+site:
+  title: Ethon's Blog
+  subtitle: '技术爱好者的学习笔记'
+  description: '坚持分享，共同成长'
+  keywords: 技术,博客,开发,安全
+  author: Ethon
+  language: zh-CN
+  since: 2025
+
+# 顶部导航栏
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder
+
+# 侧边栏配置
+aside:
+  enable: true
+  hide: false
+  button: true
+  card_author:
+    enable: true
+    description: 一名热爱技术的开发者
+    button:
+      enable: true
+      icon: fas fa-user-plus
+      text: 关注我
+    avatar: /img/avatar.jpg
+  card_announcement:
+    enable: true
+    content: 欢迎来到我的技术博客!
+  card_recent_post:
+    enable: true
+    limit: 5
+  card_categories:
+    enable: true
+    limit: 10
+  card_tags:
+    enable: true
+    limit: 20
+  card_archives:
+    enable: true
+    type: monthly
+    limit: 12
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    site_uv: true
+    site_pv: true
+
+# 页脚配置
+footer:
+  owner:
+    enable: true
+    since: 2025
+  custom_text: Framework Hexo | Theme Butterfly
+  copyright: false
+
+# 搜索功能
+local_search:
+  enable: true
+  preload: true
+
+# 文章配置
+post:
+  post_meta:
+    date_type: both
+  reward:
+    enable: false
+  copyright:
+    enable: true
+  related_posts:
+    enable: true
+    limit: 6
+
+# 背景和样式
+background:
+  index: /images/background/background.jpg
+  footer: /images/background/background2.jpg
+
+# 社交链接
+social:
+  github: https://github.com/yangtao-9527 || fab fa-github || GitHub
+
+# 首页文章封面图
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  default_cover: /img/butterfly-icon.png
+
+# 文章版权
+copyright:
+  enable: true
+  content: 本文版权归作者所有，转载请注明出处。
